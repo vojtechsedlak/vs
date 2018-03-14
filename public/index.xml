@@ -2,32 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vojtech Sedlak</title>
-    <link>/</link>
+    <link>http://vojtechsedlak.com/</link>
     <description>Recent content on Vojtech Sedlak</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Mar 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://vojtechsedlak.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/2018/03/14/hello-r-markdown/</link>
-      <pubDate>Wed, 14 Mar 2018 21:13:14 -0500</pubDate>
-      
-      <guid>/2018/03/14/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
     
     <item>
       <title>About Vojtech</title>
-      <link>/about/</link>
+      <link>http://vojtechsedlak.com/about/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://vojtechsedlak.com/about/</guid>
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
