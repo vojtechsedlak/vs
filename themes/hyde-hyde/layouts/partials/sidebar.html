@@ -1,0 +1,22 @@
+<div class="sidebar">
+	<div class="container text-center sidebar-sticky">
+		<div class="sidebar-about">
+			<a href="{{ .Site.BaseURL }}"><h1 class="brand">{{ .Site.Title }}</h1></a>
+			<p class="lead">
+				Thoughts on nonprofit technology, movement analytics, data and testing.
+			</p>
+			<p>
+				 #Rstats #BI #nptech #analytics #matomo #datascience
+			</p>
+		</div>
+		{{ partial "sidebar_menu.html" . }}
+        <p>
+		{{ partial "sidebar_social.html" . }}
+        </p>
+		<p class="copyright">{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}} {{.Site.Params.author}}.
+        <br/>Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/htr3n/hyde-hyde">hyde-hyde</a>.{{end}}
+        </p>
+	</div>
+	<div>
+	</div>
+</div>

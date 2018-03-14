@@ -1,0 +1,45 @@
+## Basic Configuration
+baseurl = "https://example.com/"
+languageCode = "en"
+theme = "hyde-hyde"
+title = "Vojtech Sedlak"
+googleAnalytics = "UA-8576885-92"
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+## Hugo Built-in Features
+# disqusShortname = ""
+# googleAnalytics = ""
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Vojtech Sedlak"
+    title = "Vojtech Sedlak"
+    description = "Desc"
+    authorimage = "/img/hugo.png"
+    dateformat = "Jan 1, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+
+## Social Accounts
+[params.social]
+    github = "vojtechsedlak"
+    linkedin = "vsedlak"
+    twitter = "vojtechsedlak"
+    email = "sedlak.vn+blog@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    weight = 200
+    url = "/post/"
