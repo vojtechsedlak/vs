@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://example.com/"
+baseurl = "http://vojtechsedlak.com"
 languageCode = "en"
 theme = "hyde-hyde"
 title = "Vojtech Sedlak"
@@ -9,11 +9,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
-
-## Hugo Built-in Features
-# disqusShortname = ""
-# googleAnalytics = ""
-# enableRobotsTXT = true
 
 ## Site Settings
 [params]
