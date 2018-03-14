@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "http://vojtechsedlak.com"
+baseurl = "http://vojtechsedlak.com/"
 languageCode = "en"
 theme = "hyde-hyde"
 title = "Vojtech Sedlak"
