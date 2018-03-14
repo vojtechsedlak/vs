@@ -3,7 +3,7 @@ baseurl = "http://vojtechsedlak.com"
 languageCode = "en"
 theme = "hyde-hyde"
 title = "Vojtech Sedlak"
-googleAnalytics = "UA-8576885-92"
+googleAnalytics = "UA-115799778-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
 
