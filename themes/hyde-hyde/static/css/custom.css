@@ -18,7 +18,7 @@ body
     padding-top:30px;
 }
 
-.post img {
+img[alt=Vojtech] {
     float:right;
     padding:10px;
     max-width:200px;
