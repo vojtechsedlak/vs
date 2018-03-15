@@ -18,6 +18,13 @@ body
     padding-top:30px;
 }
 
+.post img {
+    float:right;
+    padding:10px;
+    max-width:200px;
+}
+
+
 .headshot
 {
     width: 115px;

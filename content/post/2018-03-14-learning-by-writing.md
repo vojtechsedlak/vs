@@ -10,7 +10,7 @@ type: post
 
 After many years of trials, errors, failures and occassional successes, I hope to take the next step in understanding how technology, data and analytics can be used to advance the work of mission-driven organizations. That step means moving away from a private playground, where successes and failures were only mine to ponder, to a more open space, where I can share some of my thinking and hopefully learn from others.
 
-_**In particular I would like to explore the following areas:**_
+__**In particular I would like to explore the following areas:**__
 
 - **Nonprofit technology stacks** - What technologies to use to build a movement organization, how to leverage modular components and stop constantly reinventing the wheel. No, one platform will not solve all your problems, no matter how much you pay them.
 
