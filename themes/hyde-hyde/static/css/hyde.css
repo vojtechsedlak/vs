@@ -78,7 +78,10 @@ pre {
 /* Sidebar links */
 .sidebar a {
   color: rgba(0,0,0,.8);
-  font-weight:bold;
+  text-decoration:underline;
+}
+#title-link {
+  text-decoration:none;
 }
 
 /* About section */
@@ -123,7 +126,7 @@ a.sidebar-nav-item:focus {
   .sidebar-sticky {
     position: absolute;
     right:  1rem;
-    top: 1rem;
+    top: 20%;
     left:   1rem;
   }
 }
