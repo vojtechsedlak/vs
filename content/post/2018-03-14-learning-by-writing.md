@@ -2,8 +2,8 @@
 title: "Learning by writing"
 author: "Vojtech Sedlak"
 date: '2018-03-14'
-slug: "learning-by-writing"
-categories: "General"
+slug: learning-by-writing
+categories: General
 type: post
 ---
 
