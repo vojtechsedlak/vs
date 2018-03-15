@@ -4,7 +4,7 @@ languageCode = "en"
 theme = "hyde-hyde"
 title = "Vojtech Sedlak"
 googleAnalytics = "UA-115799778-1"
-disqusShortname = ""
+disqusShortname = "vojtechsedlak-com"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
 
 [permalinks]
