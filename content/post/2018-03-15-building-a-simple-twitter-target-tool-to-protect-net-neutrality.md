@@ -14,7 +14,7 @@ tags:
 
 ![Unfairplay.ca](/img/post-unfairplay.png)
 
-A couple of weeks ago a friend and an accomplished campaigner, Josh Tabish ([@jdtabish](https://twitter.com/jdtabish)), came up with the idea of building a simple page that would allow people to Tweet at companies in the FairPlay coalition, which proposed to censor Internet in Canada. It turned out to be a fun little project, resulting in [https://unfairplay.ca](https://unfairplay.ca). 
+A couple of weeks ago a friend and an accomplished campaigner, Josh Tabish ([@jdtabish](https://twitter.com/jdtabish)), came up with the idea of building a simple page that would allow people to tweet at companies in the FairPlay coalition, which proposed to censor Internet in Canada. It turned out to be a fun little project, resulting in [https://unfairplay.ca](https://unfairplay.ca). 
 
 The site got a lot of attention, gaining a top spot on /r/technology, getting over 60,000 visits, generating 17,000 tweets and some 5,000 comments to the CRTC. Since building such a tool could be a helpful tactic for other groups I wanted to share the code, so you can leverage the power of Twitter yourself. 
 
@@ -22,7 +22,7 @@ In case you haven't already heard about the issue, a group of Canadian companies
 
 ## Why use a spreadsheet
 
-The original inspiration for this tool came from FightForTheFuture, who used something similar in the [Battle For The Net](https://battleforthe.net). In their case they were targeting US policymakers, but you can go after anyone, who has a Twitter account. Yes, you could just hardcode the Tweets, but if you have more than 10 targets, or want to customize the Tweets, that may get a bit unwieldly. That's where Google Spreadsheets come in. Instead of having to spin up a database, Google Spreadsheets are a simple of way of storing and accessing columnar data.
+The original inspiration for this tool came from Fight For The Future, who used something similar in the [Battle For The Net](https://battleforthe.net). In their case they were targeting US policymakers, but you can go after anyone, who has a Twitter account. Yes, you could just hardcode the tweets, but if you have more than 10 targets, or want to customize the tweets, that may get a bit unwieldly. That's where Google Spreadsheets come in. Instead of having to spin up a database, Google Spreadsheets are a simple of way of storing and accessing columnar data.
 
 Start by assembling a list of your targets, their Twitter handles and the tweet copy. You can also add a name of an associated image file, if you want to include their portrait/logo. You can see an example of the spreadsheet we used below.
 
@@ -34,9 +34,9 @@ In order to be able to access the spreadsheet data programatically, you will nee
 
 ## Accessing the data with jQuery
 
-Once your spreadsheet is populated with data and is publish to the web, you can access it programatically. For Unfairplay.ca we built a simple static site that used the ```$.ajax()``` jQuery function to dynamically add Tweet buttons for all targets. You can see the full code below:
+Once your spreadsheet is populated with data and is published to the web, you can access it programatically. For Unfairplay.ca we built a simple static site that used the ```$.ajax()``` jQuery function to dynamically add Tweet buttons for all targets. You can see the full code below:
 
-```
+```js
 $(document).ready(function() {
     $.ajax({url: "https://spreadsheets.google.com/feeds/list/1J9RVuxRU_5MDO1K0FAucTNN0tvf5N7XVQuDH7TR9Bgg/default/public/values?alt=json", success: function(result){
         var data = result.feed.entry;
@@ -51,7 +51,7 @@ $(document).ready(function() {
 })
 ```
 
-The code simply accesses the spreadsheet feed in json (don't forget to add ?alt=json at the end of the URL) and for each row parses the different values (name, logo and handle) and then appends a ```div``` with a link that includes the dynamically generated elements. For Unfairplay.ca we ended up using a stock Twitter copy, but you could easily have a column for specific Tweets in the spreadsheet.
+The code simply accesses the spreadsheet feed in json (don't forget to add ?alt=json at the end of the URL) and for each row parses the different values (name, logo and handle). It then appends a ```div``` with a link that includes the dynamically generated elements. For Unfairplay.ca we ended up using a stock Twitter copy, but you could easily have a column for specific Tweets in the spreadsheet.
 
 Things to keep in mind if you are adapting the script:
 
