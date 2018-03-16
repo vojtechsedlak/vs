@@ -14,7 +14,7 @@ tags:
 
 ![Unfairplay.ca](/img/post-unfairplay.png)
 
-A couple of weeks ago a friend and an accomplished campaigner, Josh Tabish ([@jdtabish](https://twitter.com/jdtabish)), came up with the idea of building a simple page that would allow people to tweet at companies in the FairPlay coalition, which proposed to censor Internet in Canada. It turned out to be a fun little project, resulting in [https://unfairplay.ca](https://unfairplay.ca). 
+A couple of weeks ago a friend and an accomplished campaigner, Josh Tabish ([@jdtabish](https://twitter.com/jdtabish)), came up with the idea of building a simple page that would allow people to tweet at companies in the FairPlay coalition, which proposed to censor the Internet in Canada. It turned out to be a fun little project, resulting in [https://unfairplay.ca](https://unfairplay.ca). 
 
 The site got a lot of attention, gaining a top spot on /r/technology, getting over 60,000 visits, generating 17,000 tweets and some 5,000 comments to the CRTC. Since building such a tool could be a helpful tactic for other groups I wanted to share the code, so you can leverage the power of Twitter yourself. 
 
