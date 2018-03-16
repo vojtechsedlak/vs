@@ -1,9 +1,8 @@
 ---
-title: "17,000 Tweets Later: Building a Twitter Target Tool to Help Protect Net Neutrality in Canada""
+title: "17,000 Tweets Later: Building a Twitter Target Tool to Help Protect Net Neutrality in Canada"
 author: Vojtech Sedlak
 date: '2018-03-15'
 slug: building-a-twitter-target-tool-to-protect-net-neutrality in Canada
-featured_image: "img/post-unfairplay.png"
 categories:
   - Hacks
 tags:
