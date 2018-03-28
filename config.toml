@@ -18,7 +18,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
     authorimage = "/img/hugo.png"
     dateformat = "Jan 1, 2006"
     highlightjs = true
-    # highlightjsstyle = "github"
+    highlightjsstyle = "atom-one-light"
 
 ## Social Accounts
 [params.social]
