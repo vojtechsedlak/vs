@@ -8,6 +8,10 @@
         <div class="post">
         <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+        {{if isset .Params "banner" (not (eq .Params.banner "")) }}
+          <a href="{{ .Permalink }}" class="image featured">
+          <img src="{{ .Params.banner }}"></a>
+        {{ end }}
         {{ .Summary }}
         {{ if .Truncated }}
         <div class="read-more-link">

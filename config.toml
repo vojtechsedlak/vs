@@ -16,7 +16,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$","_files$","_cache$"]
     title = "Vojtech Sedlak"
     description = "Desc"
     authorimage = "/img/hugo.png"
-    dateformat = "Jan 1, 2006"
+    dateformat = "Mon, Jan 2, 2006"
     highlightjs = true
     highlightjsstyle = "atom-one-light"
 
