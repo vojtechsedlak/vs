@@ -18,8 +18,8 @@ Couple of weeks ago I got to work on an interactive tool to explore data from a 
 
 You can find the full article [here](http://datadrivenjournalism.net/featured_projects/data_done_right_how_mozilla_visualized_users_opinions_of_facebook). 
 
-[D3js Repo](https://github.com/vojtechsedlak/shinysurvey)
+[Shiny Repo](https://github.com/vojtechsedlak/shinysurvey)
 
-[Shiny Repo](https://github.com/vojtechsedlak/d3survey)
+[d3js Repo](https://github.com/vojtechsedlak/d3survey)
 
 [Live version of the tool](https://fbsurvey.mozillafoundation.org/)
